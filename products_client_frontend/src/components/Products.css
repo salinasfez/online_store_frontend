@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 50px;
+
+}
+.product-info {
+    margin-top: auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.product-card {
+    padding: 2%;
+    width: 28%;
+    max-height: 100%;
+    border: 1px solid black;
+}
+.product-image img {
+    max-width: 100%;
+}
+.main-container {
+    background-color: black;
+}
+.tab {
+    margin-left: 10px;
+}
+.header {
+    padding: 50px;
+    margin-left: 400px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+}
+.form {
+    color: white;
+    margin-left: 20px;
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 1em;
+}
+footer {
+    margin-top: 50px;
+    color: white;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around;
+    margin-left: -180px; */
+    border-top: 1px solid white;
+    color: black;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.footer-item {
+    margin-right: 320px;
+}
+li {
+    margin: 3px;
+}
+h6 {
+    color: red;
+}
+#list-an-item {
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+.two-buttons {
+    width: 200px;
+    height: 60px;
+    margin-left: 90px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#button {
+    font-family: 'Quicksand', sans-serif;
+}
