@@ -19,7 +19,7 @@ class Products extends Component {
         this.getProducts();
     }
     getProducts = () => {
-        fetch('http://localhost:3000/products')
+        fetch('https://merchant-clothing-co-app-api.herokuapp.com/products')
         .then(response => response.json())
         .then(json => this.setState({products: json}))
         .catch(error => console.log(error));
@@ -31,7 +31,7 @@ class Products extends Component {
       }
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch('http://localhost:3000/products', {
+        fetch('https://merchant-clothing-co-app-api.herokuapp.com/products', {
             body: JSON.stringify(this.state.formInputs),
             method: 'POST',
             headers: {
@@ -56,7 +56,7 @@ class Products extends Component {
         .catch(error => console.log(error));
       }
       deleteProduct = (id, index) => {
-        fetch('http://localhost:3000/products/' + id, {
+        fetch('https://merchant-clothing-co-app-api.herokuapp.com/products/' + id, {
           method: 'DELETE'
         })
         .then(() => {
